@@ -1,6 +1,6 @@
 {"cashAdvance":[{
   "tenantId": "tenant123",
-  "cashAdvanceRequestId": "cashAdvance1",
+  "cashAdvanceRequestId": "tenant123_emp000121_ca_001",
   "cashAdvanceStatus": "approved",
   "createdBy": "employee1",
   "createdFor": ["employee2", "employee3"],
@@ -92,7 +92,7 @@
 
 {
   "tenantId": "tenant123",
-  "cashAdvanceRequestId": "cashAdvance1",
+  "cashAdvanceRequestId": "tenant123_emp000221_ca_001",
   "cashAdvanceStatus": "draft",
   "createdBy": "employee1",
   "createdFor": ["employee2", "employee3"],

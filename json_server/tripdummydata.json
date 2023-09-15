@@ -7,7 +7,7 @@
         "trips": [
           {
             "travelRequest": {
-              "travelRequestId": "travelRequest123",
+              "travelRequestId": "tenant123_emp000121_tr_001",
               "travelRequestStatus": "booked",
               "createdBy": "emp000121",
               "createdFor": ["emp000129", "emp000188"],
@@ -59,7 +59,7 @@
               "travelRequestRejectionReason": "Not approved due to budget constraints"
             },
             "cashAdvance": {
-              "cashAdvanceId": "cashAdvance123",
+              "cashAdvanceId": "tenant123_emp000121_ca_001",
               "cashAdvanceStatus": "booked",
               "createdBy": "employee1",
               "createdFor": ["employee2", "employee3"],
@@ -88,7 +88,7 @@
           },
           {
             "travelRequest": {
-              "travelRequestId": "travelRequest124",
+              "travelRequestId": "tenant123_emp000221_tr_001",
               "travelRequestStatus": "booked",
               "createdBy": "emp000221",
               "createdFor": ["emp01029"],
@@ -140,7 +140,7 @@
               "travelRequestRejectionReason": "Not approved due to budget constraints"
             },
             "cashAdvance": {
-              "cashAdvanceId": "cashAdvance124",
+              "cashAdvanceId": "tenant123_emp000221_ca_001",
               "cashAdvanceStatus": "draft",
               "createdBy": "employee1",
               "createdFor": ["employee2", "employee3"],
@@ -341,10 +341,10 @@
         "trips": [
           {
             "travelRequest": {
-              "travelRequestId": "travelRequest127",
+              "travelRequestId": "tenant123_emp000777_tr_001",
               "travelRequestStatus": "booked",
-              "createdBy": "emp000127",
-              "createdFor": ["emp01027"],
+              "createdBy": "emp000777",
+              "createdFor": ["emp000777"],
               "travelRequestState": "section 0",
               "travelRequestDate": "2023-09-14",
               "travelBookingDate": "2023-09-15",
@@ -393,8 +393,8 @@
               "travelRequestRejectionReason": "Not approved due to budget constraints"
             },
             "cashAdvance": {
-              "cashAdvanceId": "cashAdvance127",
-              "cashAdvanceStatus": "approved",
+              "cashAdvanceId": "tenant123_emp000777_ca_001",
+              "cashAdvanceStatus": "pending",
               "createdBy": "employee1",
               "createdFor": ["employee2", "employee3"],
               "cashAdvanceAllocationHeaders": [
@@ -418,7 +418,7 @@
             "tripStatus": "completed",
             "tripStartDate": "2023-09-20T00:00:00.000Z",
             "tripCompletionDate": "2023-09-25T00:00:00.000Z",
-            "notificationSentToDashboardFlag": false
+            "notificationSentToDashboardFlag": true
           }
         ]
       }
