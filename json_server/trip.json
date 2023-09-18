@@ -141,15 +141,9 @@
             },
             "cashAdvance": {
               "cashAdvanceId": "tenant123_emp000221_ca_001",
-<<<<<<< HEAD
-              "cashAdvanceStatus": "booked",
-              "createdBy": "employee1",
-              "createdFor": ["employee2"],
-=======
               "cashAdvanceStatus": "draft",
               "createdBy": "employee1",
               "createdFor": ["employee2", "employee3"],
->>>>>>> 9999ce467e3464b207c5e7ae1d744acea2153096
               "cashAdvanceAllocationHeaders": [
                 {
                   "headerName": "Header 1",
@@ -169,11 +163,6 @@
               "additionalCashAdvanceField": ""
             },
             "tripStatus": "upcoming",
-<<<<<<< HEAD
-            "tripStartDate": "2023-09-20T00:00:00.000Z",
-            "tripCompletionDate": "2023-09-25T00:00:00.000Z",
-            "notificationSentToDashboardFlag": false
-=======
             "tripStartDate": "2023-10-10T00:00:00.000Z",
             "tripCompletionDate": "2023-10-15T00:00:00.000Z",
             "notificationSentToDashboardFlag": false
@@ -430,7 +419,6 @@
             "tripStartDate": "2023-09-20T00:00:00.000Z",
             "tripCompletionDate": "2023-09-25T00:00:00.000Z",
             "notificationSentToDashboardFlag": true
->>>>>>> 9999ce467e3464b207c5e7ae1d744acea2153096
           }
         ]
       }
